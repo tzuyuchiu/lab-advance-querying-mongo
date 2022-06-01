@@ -40,7 +40,7 @@ FILTER:{partners:{$exists:false}}
 
 ### 7. All the companies that have a null type of value on the `category_code` field.
 
-FILTER:{ category_code: null }
+FILTER:{category_code:{$type:10}}
 
 <!-- Your Code Goes Here -->
 
